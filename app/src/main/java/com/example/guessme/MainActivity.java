@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             if (!userGuess.isEmpty()) {
                 if (userGuess.equalsIgnoreCase(correctColorName)) {
                     resultTextView.setText("Correct!");
-                    Toast.makeText(MainActivity.this, "Congratulations!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "CONGRATULATIONS!", Toast.LENGTH_SHORT).show();
                 } else {
                     resultTextView.setText("Incorrect. Try again.");
                     Toast.makeText(MainActivity.this, "Try again!", Toast.LENGTH_SHORT).show();
