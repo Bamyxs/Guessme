@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/instructionsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess the color:"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:id="@+id/colorView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/instructionsTextView"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/guessEditText"
+        android:layout_width="218dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/colorView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Enter color name" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guessEditText"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="New Game" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newGameButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF0000" />
+</RelativeLayout>
