@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "TRY AGAIN!", Toast.LENGTH_SHORT).show();
                 }
             } else {
-                resultTextView.setText("Please enter a color name.");
+                resultTextView.setText("Please enter a COLOR name.");
                 Toast.makeText(MainActivity.this, "Please enter a color name!", Toast.LENGTH_SHORT).show();
             }
         }
